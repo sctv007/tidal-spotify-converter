@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tidal → Spotify Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      min-height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tidal → Spotify Converter</h1>
+  <p>Paste a Tidal song/album link below:</p>
+  <textarea id="tidal-link" placeholder="https://tidal.com/browse/track/123456"></textarea>
+  <button id="convert">Convert to Spotify</button>
+  <div id="result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
